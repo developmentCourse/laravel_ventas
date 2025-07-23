@@ -19,3 +19,4 @@ class Empleado extends Model
         return $this->belongsTo(Turno::class, 'id_turno');
     }
 }
+// aqui prueba
